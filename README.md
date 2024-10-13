@@ -1,36 +1,35 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://pi-hole.github.io/graphics/Vortex/Vortex_Vertical_wordmark_darkmode.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://pi-hole.github.io/graphics/Vortex/Vortex_Vertical_wordmark_lightmode.png">
+    <img src="https://pi-hole.github.io/graphics/Vortex/Vortex_Vertical_wordmark_lightmode.png" width="168" height="270" alt="Pi-hole website">
+  </picture>
+    <br>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>Pi-Hole Installation and Configuration</h1>
+This tutorial outlines the Installation and Configuration of Pi-Hole on a Rasberry Pi Model 4B.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Rasbian (BookWorm)
+- Terminal
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Rasberry Pi OS 
 
-<h2>List of Prerequisites</h2>
+<h2>List of needed Items</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Rasberry Pi (any model) However I am using a model 4B
+- Micro SD Card for storage 
+- All related perifreals: Keyboard, Mouse, Power cable, HDMI
+- Another Computer for Micro SD card install
 
-<h2>Installation Steps</h2>
+<h2>Rasberry Pi OS Install</h2>
 
 <p>
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
