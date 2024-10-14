@@ -85,6 +85,8 @@ sudo reboot now
 <br />
 
 <h2>Pi-Hole Installation </h2>
+
+
   Once Rebooted copy and run the following command
 
 ```
@@ -161,24 +163,33 @@ Copy at least the Green (I will be including the Blue options) it is recommended
 <img src="https://i.imgur.com/4xqgkAk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Step 1
+  Once all the Url's are added to your block list, we need to Update Gravity (list of blocked domains)
+
+  Go back to the Terminal, Copy and run this command
+
+```bash
+pihole -g
+```
+
+<img src="https://i.imgur.com/ykySgAL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Step 1
+  Now back on the Dash you should have many more domains on your Block list!
+<img src="https://i.imgur.com/MDrCy5m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+<h2>Point your Devices to Pi-Hole </h2>
 
 <p>
+  Once the installer has been run, you will need to configure your router to have DHCP clients use Pi-hole as their DNS server. This router configuration will ensure that all devices connecting to your network will have content blocked without any further intervention.
+
+If your router does not support setting the DNS server, you can use Pi-hole's built-in DHCP server; be sure to disable DHCP on your router first (if it has that feature available).
+
+As a last resort, you can manually set each device to use Pi-hole as their DNS server.
+
+- Each device is differant and you may need to update the DNS to your Raspberry Pi mannally. Or if you do not controll the Router.
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
