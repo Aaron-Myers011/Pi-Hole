@@ -11,11 +11,16 @@ This tutorial outlines the Installation and Configuration of Pi-Hole on a Rasber
 
 
 <h2>OverView</h2
+              
 To install a Pi-hole in your network, you’ll need to do the following things:
 
-Configure a Raspberry Pi running Raspberry Pi OS.
+Install Rasberry Pi OS onto a Rasberry Pi.
+
+Update the OS to the Current Version
 
 Set up Pi-hole software on your Raspberry Pi.
+
+(optional but recommended) Update Ad block list to make Pi-Hole more Powerful
 
 Direct DNS queries on your network to your Raspberry Pi.
 
