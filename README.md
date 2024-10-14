@@ -12,14 +12,14 @@
 
   
 <h1>Pi-Hole Installation and Configuration</h1>
-This tutorial outlines the Installation and Configuration of Pi-Hole on a Rasberry Pi Model 4B.<br />
+This tutorial outlines the Installation and Configuration of Pi-Hole on a Raspberry Pi Model 4B.<br />
 
 
 <h2>OverView</h2
               
 To install a Pi-hole in your network, you’ll need to do the following things:
 
-Install Rasberry Pi OS onto a Rasberry Pi.
+Install Rasberry Pi OS onto a Raspberry Pi.
 
 Update the OS to the Current Version
 
@@ -31,7 +31,7 @@ Direct DNS queries on your network to your Raspberry Pi.
 
 <h2>Operating Systems Used </h2>
 
-- Raspberry Pi OS (linux)
+- Raspberry Pi OS (Linux)
 - Another device is needed to install Raspberry Pi OS onto the Micro SD Card
 
 <h2>List of needed Items</h2>
@@ -50,7 +50,7 @@ For the initial SD card setup, you will need:
 
 Another computer 
 
-<h2>Rasberry Pi OS Install</h2>
+<h2>Raspberry Pi OS Install</h2>
 
 <p>
 Go to: https://www.raspberrypi.com/software/ and Download the Imager Software 
@@ -71,7 +71,7 @@ Once Downloaded and Installed set the correct image for your device
 </p>
 <br />
 
-<h2>Rasberry Pi update </h2>
+<h2>Raspberry Pi update </h2>
 
 Now the your Device is set up and powered on, open a Terminal panel
 <img src="https://i.imgur.com/niIvCQz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -86,7 +86,7 @@ sudo apt update && sudo apt upgrade
 ```
 <img src="https://i.imgur.com/It3UMoq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Once Complete reboot the Rasberry Pi
+Once Complete reboot the Raspberry Pi
 
 ```bash
 sudo reboot now
@@ -117,7 +117,7 @@ curl -sSL https://install.pi-hole.net | bash
 
   Here is their link if you have any questions: https://quad9.net/
 
-  Continue the installation to your own Logging Preferance
+  Continue the installation to your own Logging Preference
 <img src="https://i.imgur.com/Kd7W5qy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -137,7 +137,7 @@ pihole -a -p
 </p>
 
 <p>
-Next we will make sure everthing is updated, copy and run this command
+Next we will make sure everything is updated, copy and run this command
   
 ```bash
 pihole -up
@@ -159,9 +159,9 @@ Open a web page and go to your pihole web page, and log in.
 <img src="https://i.imgur.com/EiGFPQI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to the Addlist tab on the left hand side menu
+Go to the Addlist tab on the left-hand side menu
 
-  We will pasting the URL's from Fire bog into the Addresses bar
+  We will be pasting the URL's from Fire bog into the Addresses bar
 <img src="https://i.imgur.com/fLsNouD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -199,7 +199,7 @@ If your router does not support setting the DNS server, you can use Pi-hole's bu
 
 As a last resort, you can manually set each device to use Pi-hole as their DNS server.
 
-- Each device is differant and you may need to update the DNS to your Raspberry Pi mannally. Or if you do not controll the Router.
+- Each device is different, and you may need to update the DNS to your Raspberry Pi manually. Or if you do not control the Router.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
