@@ -5,7 +5,12 @@
     <img src="https://pi-hole.github.io/graphics/Vortex/Vortex_Vertical_wordmark_lightmode.png" width="168" height="270" alt="Pi-hole website">
   </picture>
     <br>
+<p align="center">
+  Pi-hole® is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.
+  <p align="center">
+  https://pi-hole.net/
 
+  
 <h1>Pi-Hole Installation and Configuration</h1>
 This tutorial outlines the Installation and Configuration of Pi-Hole on a Rasberry Pi Model 4B.<br />
 
@@ -26,7 +31,8 @@ Direct DNS queries on your network to your Raspberry Pi.
 
 <h2>Operating Systems Used </h2>
 
-- Rasberry Pi OS 
+- Raspberry Pi OS (linux)
+- Another device is needed to install Raspberry Pi OS onto the Micro SD Card
 
 <h2>List of needed Items</h2>
 
