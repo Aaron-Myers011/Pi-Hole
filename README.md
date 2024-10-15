@@ -201,7 +201,7 @@ As a last resort, you can manually set each device to use Pi-hole as their DNS s
 
 - Each device is different, and you may need to update the DNS to your Raspberry Pi manually. Or if you do not control the Router.
 
-
+<P>
 Example:
 
 You will need to travel to your device's setting and networking tab. Once there locate the DNS setting, and remove all preset options. Then add in the IP address for the Raspberry Pi, save the settings and do this again on any of your other devices you wish to filter content on!
