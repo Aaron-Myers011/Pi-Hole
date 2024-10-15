@@ -15,11 +15,11 @@
 This tutorial outlines the Installation and Configuration of Pi-Hole on a Raspberry Pi Model 4B.<br />
 
 
-<h2>OverView</h2
+<h2>Overview</h2
               
 To install a Pi-hole in your network, you’ll need to do the following things:
 
-Install Rasberry Pi OS onto a Raspberry Pi.
+Install Raspberry Pi OS onto a Raspberry Pi.
 
 Update the OS to the Current Version
 
@@ -137,7 +137,7 @@ pihole -a -p
 </p>
 
 <p>
-Next we will make sure everything is updated, copy and run this command
+Next, we will make sure everything is updated, copy and run this command
   
 ```bash
 pihole -up
@@ -159,13 +159,13 @@ Open a web page and go to your pihole web page, and log in.
 <img src="https://i.imgur.com/EiGFPQI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to the Addlist tab on the left-hand side menu
+Go to the Add list tab on the left-hand side menu
 
-  We will be pasting the URL's from Fire bog into the Addresses bar
+  We will be pasting the URLs from Fire bog into the Addresses bar
 <img src="https://i.imgur.com/fLsNouD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Copy at least the Green (I will be including the Blue options) it is recommended to avoid the ones with lines through them as they may block the wrong things and break websites!
+Copy at least the Green (I will be including the blue options) it is recommended to avoid the ones with lines through them as they may block the wrong things and break websites!
 <img src="https://i.imgur.com/l3W2CxM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
@@ -174,7 +174,7 @@ Copy at least the Green (I will be including the Blue options) it is recommended
 <img src="https://i.imgur.com/4xqgkAk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Once all the Url's are added to your block list, we need to Update Gravity (list of blocked domains)
+  Once all the URLs are added to your block list, we need to Update Gravity (list of blocked domains)
 
   Go back to the Terminal, Copy and run this command
 
@@ -204,7 +204,7 @@ As a last resort, you can manually set each device to use Pi-hole as their DNS s
 <P>
 Example:
 
-You will need to travel to your device's setting and networking tab. Once there locate the DNS setting, and remove all preset options. Then add in the IP address for the Raspberry Pi, save the settings and do this again on any of your other devices you wish to filter content on!
+You will need to travel to your device's setting and networking tab. Once there locate the DNS setting and remove all preset options. Then add in the IP address for the Raspberry Pi, save the settings and do this again on any of your other devices you wish to filter content on!
 
 <img src="https://i.imgur.com/xLhmDPD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
